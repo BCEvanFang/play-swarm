@@ -1,3 +1,8 @@
+Create overlay network
+```sh
+docker network create --attachable -d overlay boxnet
+```
+
 Start box1 and box2
 ```sh
 docker-compose -f docker-compose.box1.yaml up -d

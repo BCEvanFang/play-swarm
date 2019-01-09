@@ -1,8 +1,8 @@
 version: '3'
 services:
-  box2:
+  box3:
     image: busybox
-    container_name: box2
+    container_name: box3
     command: top
     networks: 
       - boxnet
