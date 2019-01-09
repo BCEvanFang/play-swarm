@@ -4,3 +4,8 @@ services:
     image: busybox
     container_name: box1
     command: top
+    networks: 
+      - boxnet
+
+networks:
+  boxnet:
