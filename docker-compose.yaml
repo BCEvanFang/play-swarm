@@ -1,6 +1,6 @@
 version: '3'
 services:
-  mybox:
+  box1:
     image: busybox
-    container_name: mybox
+    container_name: box1
     command: top
